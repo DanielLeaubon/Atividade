@@ -15,7 +15,7 @@ function pessoa (){
             nome: nome.value,
             sobrenome: sobrenome.value,
             peso: peso.value,
-            alura: altura.value 
+            altura: altura.value 
         };
         console.log(pessoas);
         if (pessoas.nome == '' || pessoas.sobrenome == ''||pessoas.peso == '' || pessoas.altura == ''){
